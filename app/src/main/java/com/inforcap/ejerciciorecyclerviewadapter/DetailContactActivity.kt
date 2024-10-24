@@ -1,10 +1,7 @@
 package com.inforcap.ejerciciorecyclerviewadapter
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.inforcap.ejerciciorecyclerviewadapter.databinding.ActivityDetailContactBinding
 import com.inforcap.ejerciciorecyclerviewadapter.model.Contact
 

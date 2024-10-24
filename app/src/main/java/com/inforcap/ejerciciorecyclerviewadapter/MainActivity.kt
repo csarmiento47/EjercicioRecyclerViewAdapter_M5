@@ -23,7 +23,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         adapter = ContactAdapter(dummyData())
-        binding.rvContact.layoutManager = LinearLayoutManager(this)
+        //binding.rvContact.layoutManager = LinearLayoutManager(this)
+        var orientationRecyclerView = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        binding.rvContact.setLayoutManager(orientationRecyclerView)
         binding.rvContact.adapter = adapter
 
         adapter.onClick = {
